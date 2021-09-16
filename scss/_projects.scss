@@ -71,6 +71,12 @@
         }
     }
 
+    &__title {
+        color: $secondary-color;
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+
     &__btns {
         position: absolute;
         top: 0;
@@ -90,6 +96,8 @@
 
         &:hover {
             color: set-text-color(set-text-color($secondary-color));
+            background: $primary-color;
+            padding: 0.5rem;
         }
     }
 

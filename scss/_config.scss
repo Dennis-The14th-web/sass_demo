@@ -29,7 +29,7 @@ $secondary-color: #87ceeb;
         @content;
     }
 }
-@mixin media-lx {
+@mixin media-xl {
     @media screen and (min-width: 1600px) {
         @content;
     }

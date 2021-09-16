@@ -1,5 +1,5 @@
 $primary-color: #272727;
-$secondary-color: #ff652f;
+$secondary-color: #87ceeb;
 
 * {
     box-sizing: border-box;
@@ -15,7 +15,7 @@ $secondary-color: #ff652f;
     @if (lightness($color) > 40%) {
         @return #000;
     } @else {
-        @return #fff
+        @return #fff;
     }
 }
 

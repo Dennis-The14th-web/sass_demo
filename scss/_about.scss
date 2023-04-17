@@ -43,12 +43,14 @@
             background: lighten($primary-color, 10%);
             padding: 0.5rem;
             border-bottom: 5px solid $secondary-color;
+            line-height: 1.5rem;
 
             h2, h3 {
                 margin: 0.5rem 0;
             }
-            h6 {
+            h5 {
                 margin: 0.3rem 0;
+                color: $secondary-color;
             }
         }
     }
